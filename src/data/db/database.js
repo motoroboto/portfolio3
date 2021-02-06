@@ -2,9 +2,9 @@ import Mock from "../mock";
 
 const database = {
   information: {
-    name: 'Devid Chester',
-    aboutContent: "I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.",
-    age: 24,
+    name: 'Robert Cullen-Keel',
+    aboutContent: "I am a full stack web developer with a background in sales and management that has prepared me for working as part of a team in a fast paced environment. I recently earned my certificate in full stack development from the University of North Carolina. I have a keen eye for detail and a passion for problem solving. I have experience working in both vertical and horizontal team structures, and am comfortable with both giving and receiving constructive feedback. I enjoy creating simple, easy to navigate UIs, and efficient streamlined backends. My years of management experience have trained me to remain cool under pressure, and know how to prioritize tasks so I can effectively manage projects and provide excellent results.",
+    age: 38,
     phone: '',
     nationality: 'American',
     language: 'English, French',

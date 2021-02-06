@@ -36,7 +36,7 @@ function App() {
       </div>
       <Switch>
         <Route path="/" exact>
-          <Home lightMode={lightMode}/>
+          <Home lightMode={lightMode} />
         </Route>
         <Route path="/about" component={About} />
         <Route path="/resume" component={Resumes} />
@@ -44,7 +44,7 @@ function App() {
         <Route path="/blogs" exact component={Blogs} />
         <Route path="/blogs/blog-details/:id/:title" component={BlogDetails} />
         <Route path="/contact" component={Contact} />
-        <Route path="*" component={Notfound} />
+        <Route path="*" component={Home} />
       </Switch>
     </BrowserRouter>
   );
