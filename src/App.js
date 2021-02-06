@@ -7,7 +7,6 @@ import BlogDetails from "./pages/BlogDetails";
 import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
-import Notfound from "./pages/Notfound";
 import Portfolios from "./pages/Portfolios";
 import Resumes from "./pages/Resumes";
 
