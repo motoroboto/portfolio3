@@ -66,7 +66,7 @@ function About() {
               <div className="mi-about-image">
                 <ProgressiveImage
                   src={information.aboutImage}
-                  placeholder="/images/about-image-placeholder.png"
+                  placeholder="/images/about-image-lg.jpg"
                 >
                   {src => <img src={src} alt="aboutimage" onClick={() => handleToggler(!toggler)} />}
                 </ProgressiveImage>
@@ -85,9 +85,7 @@ function About() {
                   I am <span className="color-theme">{information.name}</span>
                 </h3>
                 <p>
-                  I am a frontend web developer. I can provide clean code and
-                  pixel perfect design. I also make website more & more
-                  interactive with web animations.
+                  I am a full stack web developer with a background in sales and management that has prepared me for working as part of a team in a fast paced environment. I recently earned my certificate in full stack development from the University of North Carolina. I have a keen eye for detail and a passion for problem solving. I have experience working in both vertical and horizontal team structures, and am comfortable with both giving and receiving constructive feedback. I enjoy creating simple, easy to navigate UIs, and efficient streamlined backends. My years of management experience have trained me to remain cool under pressure, and know how to prioritize tasks so I can effectively manage projects and provide excellent results.
                 </p>
                 <ul>
 
@@ -128,7 +126,7 @@ function About() {
                   )}
                 </ul>
                 <a href={information.cvfile} className="mi-button">
-                  Download CV
+                  Full Resume
                 </a>
               </div>
             </div>
@@ -152,7 +150,8 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="mi-review-area mi-section mi-padding-top mi-padding-bottom">
+      <div className="mi-section mi-padding-top mi-padding-bottom"></div>
+      {/* <div className="mi-review-area mi-section mi-padding-top mi-padding-bottom">
         <div className="container">
           <Sectiontitle title="Reviews" />
           <div className="row justify-content-center">
@@ -165,7 +164,7 @@ function About() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </Layout>
   );
 }

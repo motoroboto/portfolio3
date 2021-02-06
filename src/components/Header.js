@@ -26,7 +26,7 @@ function Header() {
             <div className="mi-header-inner">
                 <div className="mi-header-image">
                     <Link to="/">
-                        <img src={information.brandImage} alt="brandimage" />
+                        <img src={information.brandImage} placeholder="../images/about-image.jpg" alt="my headshot" />
                     </Link>
                 </div>
 
@@ -34,7 +34,7 @@ function Header() {
                     <li><NavLink exact to="/"><span>Home</span></NavLink></li>
                     <li><NavLink to="/about"><span>About</span></NavLink></li>
                     <li><NavLink to="/resume"><span>Resume</span></NavLink></li>
-                    <li><NavLink to="/portfolios"><span>Portfolios</span></NavLink></li>
+                    <li><NavLink to="/portfolios"><span>Portfolio</span></NavLink></li>
                     {/* <li><NavLink to="/blogs"><span>Blogs</span></NavLink></li> */}
                     <li><NavLink to="/contact"><span>Contact</span></NavLink></li>
                 </ul>

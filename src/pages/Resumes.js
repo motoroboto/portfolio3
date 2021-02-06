@@ -7,18 +7,18 @@ import Layout from "../components/Layout";
 import Progress from "../components/Progress";
 import Resume from "../components/Resume";
 
-function Resumes(){
+function Resumes() {
   const [skills, setSkills] = useState([]);
   const [workingExperience, setWorkingExperience] = useState([]);
   const [educationExperience, setEducationExperience] = useState([]);
 
-  useEffect(() =>{
+  useEffect(() => {
     axios.get('/api/skills')
-      .then(response =>{
+      .then(response => {
         setSkills(response.data);
       })
     axios.get('/api/experience')
-      .then(response =>{
+      .then(response => {
         setWorkingExperience(response.data.workingExperience);
         setEducationExperience(response.data.educationExperience);
       })
@@ -31,11 +31,7 @@ function Resumes(){
           <Sectiontitle title="My Skills" />
           <div className="mi-skills">
             <div className="row mt-30-reverse">
-              {skills.map(skill => (
-                <TrackVisibility once className="col-lg-6 mt-30" key={skill.title}>
-                  <Progress title={skill.title} percentage={skill.value} />
-                </TrackVisibility>
-              ))}
+              <h5>MERN Stack Apps | Progressive Web Apps | React | Next.js | HTML5 | CSS | JavaScript | jQuery | Bootstrap | Heroku | Ajax & Axios | AWS | MongoDB | MySQL | DynamoDB | Atlas | VSCode | Express | Microsoft Office | Adobe PhotoShop</h5>
             </div>
           </div>
         </div>
@@ -53,7 +49,7 @@ function Resumes(){
           <Smalltitle title="Educational Qualifications" icon="book" />
           <div className="mi-resume-wrapper">
             {educationExperience.map(educatonExp => (
-              <Resume key={educatonExp.id} resumeData={educatonExp}/>
+              <Resume key={educatonExp.id} resumeData={educatonExp} />
             ))}
           </div>
         </div>

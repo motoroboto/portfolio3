@@ -3,7 +3,7 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'Robert Cullen-Keel',
-    aboutContent: "I am a full stack web developer with a background in sales and management that has prepared me for working as part of a team in a fast paced environment. I recently earned my certificate in full stack development from the University of North Carolina. I have a keen eye for detail and a passion for problem solving. I have experience working in both vertical and horizontal team structures, and am comfortable with both giving and receiving constructive feedback. I enjoy creating simple, easy to navigate UIs, and efficient streamlined backends. My years of management experience have trained me to remain cool under pressure, and know how to prioritize tasks so I can effectively manage projects and provide excellent results.",
+    aboutContent: "I am a full stack web developer currently located in Durham, NC. I recently graduated from the Bootcamp at UNC Chapel Hill, and I have a keen eye for detail.",
     // age: [],
     phone: '',
     nationality: '',
@@ -31,17 +31,17 @@ const database = {
     {
       title: "Web Design",
       icon: 'color-pallet',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      // details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
     },
     {
       title: "Web Development",
       icon: 'code',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      // details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
     },
     {
       title: "Mobile Application",
       icon: 'mobile',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      // details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
     }
   ],
   reviews: [
@@ -150,48 +150,48 @@ const database = {
     workingExperience: [
       {
         id: 1,
-        year: "2018 - Present",
-        position: "Frontend Web Developer",
-        company: "Abc Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      },
-      {
-        id: 2,
-        year: "2016 - 2018",
-        position: "Frontend Web Developer",
-        company: "CBA Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      },
-      {
-        id: 3,
-        year: "2014 - 1016",
-        position: "UI/UX Designer",
-        company: "Example Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2006 - Present",
+        position: "Store Manager",
+        company: "Sherwin-Williams",
+        details: "I Oversaw a growth in annual sales by 15% in a one-year period during a hiring freeze. I Coach, develop and support a team of six, through recruiting and hiring, scheduling, training and delegation of work assignments. Conduct monthly staff performance evaluations to establish career progression plans for key staff retention and reduction of staff turnover. Build, maintain and grow relationships with key customers, contributing to the long-term strength of the business and brand. Execute national promotions and develop local promotions ensuring successful execution to effectively counter local competition. Analyze and interpret market trends affecting sales goals. Regularly complete internal and external purchase orders to maintain inventory levels. Assure prompt payment and reconciliation of vendor invoices"
       }
+      // {
+      //   id: 2,
+      //   year: "2016 - 2018",
+      //   position: "Frontend Web Developer",
+      //   company: "CBA Company",
+      //   details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+      // },
+      // {
+      //   id: 3,
+      //   year: "2014 - 1016",
+      //   position: "UI/UX Designer",
+      //   company: "Example Company",
+      //   details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+      // }
     ],
     educationExperience: [
       {
         id: 1,
-        year: "2018 - 2019",
-        graduation: "Master of Science",
-        university: "Abc University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2020 - 2021",
+        graduation: "Full Stack Development Bootcamp",
+        university: "UNC Chapel Hill",
+        details: "A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS."
       },
       {
         id: 2,
-        year: "2016 - 2018",
-        graduation: "Bachelor of Science",
-        university: "Abc University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      },
-      {
-        id: 3,
-        year: "2015 - 2016",
-        graduation: "Higher Schoold Graduation",
-        university: "Abc College",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2018 - 2020",
+        graduation: "Associates in Business Administration",
+        university: "Durham Tech",
+        details: "The Business Administration curriculum is designed to introduce students to the various aspects of the free enterprise system.Students will be provided with a fundamental knowledge of business functions, processes, and an understanding of business organizations in today's global economy."
       }
+      // {
+      //   id: 3,
+      //   year: "2015 - 2016",
+      //   graduation: "Higher Schoold Graduation",
+      //   university: "Abc College",
+      //   details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+      // }
     ]
   },
   blogs: [
