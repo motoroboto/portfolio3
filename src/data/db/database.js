@@ -25,7 +25,7 @@ const database = {
     brandImage: '/portfolio3/images/about-image.jpg',
     aboutImage: '/portfolio3/images/about-image-lg.jpg',
     aboutImageLg: '/portfolio3/images/about-image-lg.jpg',
-    cvfile: 'https://motoroboto.github.io/portfolio2eb/assets/resume.pdf'
+    cvfile: 'https://motoroboto.github.io/portfolio2eb/assets/atsresume.pdf'
   },
   services: [
     {
@@ -99,52 +99,53 @@ const database = {
   portfolios: [
     {
       id: 1,
-      title: "T-shirt Mockup",
-      subtitle: "A beautiful t-shirt mockup.",
-      imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://dribbble.com'
+      title: "ASGM-WFU",
+      subtitle: "This site will be used by the ASGM researchers in order to automate the ML workflow. This sleek front end is connected to a very complex and robust AWS backend.",
+      imageUrl: "https://raw.githubusercontent.com/motoroboto/portfolio2eb/main/assets/img/project-featured/color.png",
+      githubUrl: 'https://github.com/bpgould/ASGMfrontEnd',
+      url: 'https://asgmwfu.com/'
     },
     {
       id: 2,
-      title: "Coffee Mug",
-      subtitle: "Awesome coffee mug design.",
-      imageUrl: "/images/portfolio-image-4.jpg",
-      largeImageUrl: [
-        "/images/portfolio-image-4-lg.jpg",
-        "/images/portfolio-image-4-lg2.jpg"
-      ],
-      url: 'https://facebook.com'
+      title: "Workout Tracker",
+      subtitle: "A simple fitness tracking web app utilizing a Mongo database with a Mongoose schema.",
+      imageUrl: "https://github.com/motoroboto/workouttracker/raw/main/assets/screenshot.png",
+      githubUrl: 'https://github.com/motoroboto/workouttracker',
+      url: 'https://motorobotofittrack.herokuapp.com/'
     },
     {
       id: 3,
-      title: "Tea & Coffee Mug",
-      subtitle: "Beautiful mug with logo.",
-      imageUrl: "/images/portfolio-image-2.jpg",
-      url: 'https://pinterest.com'
+      title: "Magic: the Gathering Pricing Database",
+      subtitle: "A page utilizing the Scryfall and ExchangeRates APIs in order to gather a display card information as well as pricing in a variety of differing currencies.",
+      imageUrl: "https://github.com/whelant/Project-1/raw/main/assets/screenshot.png",
+      githubUrl: 'https://github.com/motoroboto/mtgcurrencyconverter',
+      url: 'https://motoroboto.github.io/mtgcurrencyconverter/'
     },
     {
       id: 4,
-      title: "Pen Holder",
-      subtitle: "A pen holder with beautiful design.",
-      imageUrl: "/images/portfolio-image-3.jpg",
-      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
-      url: '#'
+      title: "Budget Tracker",
+      subtitle: "A simple Budget tracking Progressive Web App with offline functionality",
+      imageUrl: "https://github.com/motoroboto/budgettracker/raw/main/assets/screenshot.png",
+      githubUrl: 'https://github.com/motoroboto/budgettracker',
+      url: 'https://motorobotobudgetracker.herokuapp.com/'
     },
     {
       id: 5,
-      title: "Mug",
-      subtitle: "Mug with awesome style",
-      imageUrl: "/images/portfolio-image-5.jpg",
-      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
+      title: "Eat Da Burger",
+      subtitle: "Compile a List of Burgers, mark them as consumed, or delete them",
+      imageUrl: "https://github.com/motoroboto/eatdaburger/raw/main/public/assets/img/screenshot.png",
+      githubUrl: 'https://github.com/motoroboto/eatdaburger',
+      url: 'https://motorobotoeatdaburger.herokuapp.com/'
     },
     {
       id: 6,
-      title: "Pendrive",
-      subtitle: "Free pendrive mockup design.",
-      imageUrl: "/images/portfolio-image-6.jpg",
-      largeImageUrl: ["/images/portfolio-image-6-lg.jpg"]
-    }
+      title: "Employee Directory",
+      subtitle: "A Searchable Employee Database",
+      imageUrl: "https://raw.githubusercontent.com/motoroboto/employeedirectory/master/assets/screenshot.png",
+      githubUrl: 'https://github.com/motoroboto/employeedirectory',
+      url: 'https://motoroboto.github.io/employeedirectory/'
+    },
+
   ],
   experience: {
     workingExperience: [
