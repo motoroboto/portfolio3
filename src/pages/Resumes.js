@@ -5,6 +5,7 @@ import Sectiontitle from "../components/Sectiontitle";
 import Smalltitle from '../components/Smalltitle';
 import Layout from "../components/Layout";
 import Progress from "../components/Progress";
+import Footer from '../components/Footer';
 import Resume from "../components/Resume";
 
 function Resumes() {
@@ -54,6 +55,7 @@ function Resumes() {
           </div>
         </div>
       </div>
+      <Footer />
     </Layout>
   );
 }

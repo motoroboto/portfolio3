@@ -3,6 +3,7 @@ import axios from "axios";
 import Sectiontitle from "../components/Sectiontitle";
 import Layout from "../components/Layout";
 import Pagination from "../components/Pagination";
+import Footer from "../components/Footer";
 import PortfoliosView from "../components/PortfoliosView";
 
 function Portfolios() {
@@ -13,7 +14,7 @@ function Portfolios() {
   useEffect(() => {
     let mounted = true;
     axios.get("/api/portfolios").then((response) => {
-      if(mounted){
+      if (mounted) {
         setPortfoios(response.data);
       }
     });
@@ -49,6 +50,7 @@ function Portfolios() {
           )}
         </div>
       </div>
+      <Footer />
     </Layout>
   );
 }

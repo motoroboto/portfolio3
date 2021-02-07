@@ -3,7 +3,7 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'Robert Cullen-Keel',
-    aboutContent: "I am a full stack web developer currently located in Durham, NC. I recently graduated from the Bootcamp at UNC Chapel Hill, and I have a keen eye for detail.",
+    aboutContent: "I am a full stack web developer currently located in Durham, NC. I recently graduated from the Bootcamp at UNC Chapel Hill, and I have a keen eye for detail and a passion for problem solving.",
     // age: [],
     phone: '',
     nationality: '',

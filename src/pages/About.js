@@ -7,6 +7,7 @@ import Slider from "react-slick";
 import Layout from "../components/Layout";
 import Sectiontitle from "../components/Sectiontitle";
 import Service from "../components/Service";
+import Footer from "../components/Footer"
 import Testimonial from "../components/Testimonial";
 
 
@@ -151,6 +152,7 @@ function About() {
         </div>
       </div>
       <div className="mi-section mi-padding-top mi-padding-bottom"></div>
+      <Footer />
       {/* <div className="mi-review-area mi-section mi-padding-top mi-padding-bottom">
         <div className="container">
           <Sectiontitle title="Reviews" />

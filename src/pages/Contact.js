@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from 'axios';
 import * as Icon from "react-feather";
 import Sectiontitle from "../components/Sectiontitle";
+import Footer from '../components/Footer';
 import Layout from "../components/Layout";
 
 function Contact() {
@@ -147,6 +148,7 @@ function Contact() {
           </div>
         </div>
       </div>
+      <Footer />
     </Layout>
   );
 }
