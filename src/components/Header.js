@@ -26,6 +26,8 @@ function Header() {
             <div className="mi-header-inner">
                 <div className="mi-header-image">
                     <Link to="/">
+                        <img src={information.brandImage}
+                            placeholder='/images/about-image.jpg' alt="brandimage" />
                     </Link>
                 </div>
 
